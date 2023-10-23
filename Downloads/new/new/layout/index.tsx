@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import NavPopover from "components/popover/NavPopover";
+// import NavPopover from "components/popover/NavPopover";
 import { Nav, Navbar, NavbarBrand } from "react-bootstrap";
 import { hideNav } from "@/common/functions";
 
@@ -37,7 +37,7 @@ export default function Layout({ user, mutate, router, children }) {
                     </Link>
                   </div>
                 ))}
-                <NavPopover {...{ user, mutate, router }} />
+                {/* <NavPopover {...{ user, mutate, router }} /> */}
               </Nav>
             </Navbar.Collapse>
           </div>

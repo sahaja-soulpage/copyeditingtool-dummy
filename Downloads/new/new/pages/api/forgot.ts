@@ -29,7 +29,7 @@ export default handler.post(async (req: any, res: any) => {
     const resetToken = uuidv4();
 
     // Save the reset token in the database
-    await prisma.user.update({ where: { id: user.id }, data: { resetToken } });
+    // await prisma.user.update({ where: { id: user.id }, data: {  resetToken } });
 
     // Send the password reset email
     const resetLink = `${origin}/auth?reset=${resetToken}`;
