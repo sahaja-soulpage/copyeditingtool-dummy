@@ -1,2 +1,1 @@
-# copyeditingtool-dummy
-copyeditingtool-dummy
+# new-project
