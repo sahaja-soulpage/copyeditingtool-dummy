@@ -1,7 +1,7 @@
 import nextConnect from "next-connect";
 import { PrismaClient } from "@prisma/client";
 import jwt from "jsonwebtoken";
-import bcrypt from "bcrypt";
+// import bcrypt from "bcrypt";
 
 const prisma = new PrismaClient();
 const handler = nextConnect();

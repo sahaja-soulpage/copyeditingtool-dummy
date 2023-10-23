@@ -5,7 +5,7 @@ import DataTable from "react-data-table-component";
 import { htmlData, tagCode, tagsFilters } from "@/common/functions";
 
 import FileService from "@/services/file.service";
-import { customSearchStyles, sortFunction } from "@/common/tableFunctions";
+import { customSearchStyles } from "@/common/tableFunctions";
 import { ReactSVG } from "react-svg";
 import { useDebounce } from "@/hooks/useDebounce";
 
