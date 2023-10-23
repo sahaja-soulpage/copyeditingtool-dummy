@@ -1,0 +1,116 @@
+.help {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #030229;
+}
+
+.active-header {
+  color: #0090a1;
+}
+
+.inactive-header {
+  color: #030229;
+}
+
+.basic-green-button {
+  width: 125.89px;
+  height: 43.58px;
+  background: #0090a1;
+  border-radius: 5px;
+  border-color: #0090a1;
+}
+
+.basic-green-button:hover {
+  background-color: #0090a1;
+  border-color: #0090a1;
+}
+
+.basic-green-button:focus {
+  background-color: #0090a1;
+  border-color: #0090a1;
+}
+
+.basic-green-button:active {
+  background-color: #0090a1 !important;
+}
+
+.all-proofs-button {
+  // width: 120.89px;
+  // height: 50.58px;
+  background: #fff;
+  color: #0090a1;
+  border-radius: 5px;
+  border-color: #0090a1;
+}
+
+.all-proofs-button:hover {
+  background-color: #fff;
+  color: #0090a1;
+  border-color: #0090a1;
+}
+
+.all-proofs-button:focus {
+  background-color: #fff;
+  color: #0090a1;
+  border-color: #0090a1;
+}
+
+.all-proofs-button:active {
+  background-color: #fff !important;
+  color: #0090a1;
+  border-color: #0090a1;
+}
+
+.mytooltip {
+  display: "none";
+  background-color: " #313639";
+  opacity: 0;
+  position: "absolute" !important;
+  border-radius: "8px";
+  color: "#f9f9f9";
+  padding: "0.5rem";
+  font-size: "0.7rem";
+  text-align: "center";
+  pointer-events: "none";
+  text-transform: "capitalize";
+}
+
+#testtip {
+  display: "none";
+  background-color: " #313639";
+  opacity: 0;
+  position: "absolute" !important;
+  border-radius: "8px";
+  color: "#f9f9f9";
+  padding: "0.5rem";
+  font-size: "0.7rem";
+  text-align: "center";
+  pointer-events: "none";
+  text-transform: "capitalize";
+}
+
+.nav-forward {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.img-nav-forward {
+  transform: rotate(180deg);
+}
+
+input[type="radio"] {
+  accent-color: #0090a1;
+}
+
+.ML__virtual-keyboard-toggle {
+  display: none !important;
+}
